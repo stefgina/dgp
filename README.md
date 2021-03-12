@@ -20,6 +20,12 @@ FIXED :
 ```
 RUN git clone https://github.com/stefgina/dgp.git \
 ```
+
+Specifically the problem occurs with the dependencies boto3 and botocore, where I just loosened their version requirement.
+
+
+
+
 [<img src="/docs/tri-logo.jpeg" width="25%">](https://www.tri.global/)
 
 TRI Dataset Governance Policy
