@@ -8,7 +8,7 @@ author -> Stefanos Ginargyros
 
 ## This Fork Fixes the dependency problem on Toyota's Packnet with Docker
 
-Currently the "PackNet-SfM: 3D Packing for Self-Supervised Monocular Depth Estimation" requires faulty dependencies. In order to properly build the packnet-sfm with Docker, I made this fork where you can modify your dockerfile accordingly. Specifically you should change the line 126 on the official dockerfile inside packnet-sfm/docker/dockerfile with :
+Currently the "PackNet-SfM: 3D Packing for Self-Supervised Monocular Depth Estimation" requires faulty dependencies. In order to properly build the packnet-sfm with Docker, I made this fork where you can modify your dockerfile accordingly. Specifically you should change the line 126 in the official dockerfile inside packnet-sfm/docker/dockerfile with :
 
 ORIGINAL :
 
