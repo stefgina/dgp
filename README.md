@@ -1,3 +1,25 @@
+
+
+```python
+
+author -> Stefanos Ginargyros
+
+```
+
+## This Fork Fixes the dependency problem on Toyota's Packnet with Docker
+
+Currently the "PackNet-SfM: 3D Packing for Self-Supervised Monocular Depth Estimation" requires faulty dependencies in order to properly build the packnet with Docker, so I made this fork where you can modify your dockerfile accordingly in packnet SfM in order to work correctly. Specifically you should change the line 126 on the official dockerfile inside packnet-sfm/docker/dockerfile with :
+
+ORIGINAL :
+
+```
+RUN git clone https://github.com/TRI-ML/dgp.git \
+```
+
+FIXED :
+```
+RUN git clone https://github.com/stefgina/dgp.git \
+```
 [<img src="/docs/tri-logo.jpeg" width="25%">](https://www.tri.global/)
 
 TRI Dataset Governance Policy
