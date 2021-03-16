@@ -21,7 +21,7 @@ FIXED :
 RUN git clone https://github.com/stefgina/dgp.git \
 ```
 
-The problem occurs with the dependencies boto3 and botocore, conflicting with their equivalent awscli requirements.
+The problem occurs with dependencies boto3 and botocore, conflicting with their equivalent awscli requirements.
 
 
 
